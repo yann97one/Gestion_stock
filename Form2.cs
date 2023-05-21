@@ -121,7 +121,7 @@ namespace gestionStock
                     DbFour.DeleteFou(int.Parse(four_data.Rows[e.RowIndex].Cells[2].Value.ToString()));
                     Display();
                 }
-                return;
+                return;//test
             }
 
         }

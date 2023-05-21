@@ -177,6 +177,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="Resources\gestion_stock %281%29.sql" />
     <None Include="Resources\loupe.jpg" />
   </ItemGroup>
   <ItemGroup>

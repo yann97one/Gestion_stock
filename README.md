@@ -1,3 +1,7 @@
+## IMPORTANT
+- Avant de demarrer le logiciel veuillez importer la bdd (elle se trouve dans le dossier 'ressources') dans votre phpMyAdmin et démarrer wampserver !
+
+###
 ## Diagramme de cas d'utilisation - Logiciel de Gestion de Stock
 
 ### Acteurs

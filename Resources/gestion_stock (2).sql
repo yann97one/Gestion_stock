@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : dim. 21 mai 2023 à 15:25
+-- Généré le : dim. 21 mai 2023 à 16:05
 -- Version du serveur : 5.7.36
 -- Version de PHP : 7.4.26
 
@@ -68,20 +68,6 @@ INSERT INTO `produit` (`id_produit`, `label_produit`, `fou_produit`, `prix_produ
 (1225, 'ordinateur HP', 'NOVE', 144, 35),
 (1238, 'barrette HYPERX', 'MICROMANIA', 188, 78),
 (1239, 'boitier HEDEN', 'PCLEADER', 1458, 789);
-
--- --------------------------------------------------------
-
---
--- Structure de la table `stock`
---
-
-DROP TABLE IF EXISTS `stock`;
-CREATE TABLE IF NOT EXISTS `stock` (
-  `id_prod` int(10) NOT NULL,
-  `label_produit` varchar(20) NOT NULL,
-  `id_fou` int(10) NOT NULL,
-  `label_fou` varchar(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
